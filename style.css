@@ -84,3 +84,22 @@ nav ul li {
 .hero-text h1, .hero-text h5 {
     margin: 0.75em 0;
 }
+
+.about {
+    margin: 3em auto;
+    padding: 2em;
+    text-align: center;
+}
+
+.about h2 {
+    margin: 0.5em;
+}
+
+.about h4 {
+    margin: 2em;
+}
+
+.about p {
+    margin: 2em 0;
+}
+
