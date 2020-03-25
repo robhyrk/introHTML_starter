@@ -156,3 +156,52 @@ nav ul li {
     margin: 2em 0;
     font-weight:bold;
 }
+
+/* Contact Section */
+.contact {
+    margin: 3em auto 0 auto;
+    padding: 2em;
+    background: #191919;
+    text-align: center;
+    color: white;
+}
+
+.contact h2 {
+    margin: 0.5em 0;
+}
+
+.contact p {
+    margin: 1em;
+}
+
+form {
+    margin: 3em 0;
+}
+
+form input {
+    border-radius: 15px;
+    border: none;
+    font-size: 1.25em;
+    padding:0.25em 1em;
+}
+
+form label {
+    display: block;
+    margin: 1em 0;
+    font-size: 1.25em;
+}
+
+form input[type="submit"] {
+    display: block;
+    margin: 3em auto;
+    padding:0.5em;
+    cursor: pointer;
+    width:100px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2em;
+}
+
