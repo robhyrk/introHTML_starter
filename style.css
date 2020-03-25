@@ -139,3 +139,20 @@ nav ul li {
 .services span {
     font-size: 1.25em;
 }
+
+/* FAQ Section */
+
+.faq {
+    margin: 3em auto;
+    padding: 2em;
+}
+
+.faq ol {
+    margin: 2em 1em;
+    list-style: decimal;
+}
+
+.faq li {
+    margin: 2em 0;
+    font-weight:bold;
+}
