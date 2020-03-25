@@ -49,6 +49,47 @@ table {
 
 /* Custom Styles */
 
+html {
+    font-family: 'Hind', sans-serif;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size:3em;
+    font-family: 'Righteous', cursive;
+    color: #3b7ca8;
+}
+
+h2 {
+    font-size:2.5em;
+    font-family: 'Righteous', cursive;
+}
+
+h3 {
+    font-size:2em;
+    font-family: 'Righteous', cursive;
+}
+
+h4 {
+    font-size:1.5em;
+    font-family: 'Righteous', cursive;
+}
+
+h5 {
+    font-size:1.25em;
+    font-family: 'Righteous', cursive;
+}
+
 header {
     background-color: #191919;
 }
@@ -66,7 +107,12 @@ nav ul li {
 
 /* Hero Banner */
 .hero-banner {
-    background:url("images/sunset.jpg");
+    background:
+    linear-gradient(
+        rgba(25,25,25, 0.75),
+        rgba(25,25,25, 0.75)
+    ),
+    url("images/sunset.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;

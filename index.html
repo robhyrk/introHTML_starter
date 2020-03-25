@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/d1aa1acf1f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind&family=Righteous&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -12,13 +13,13 @@
     <header>
         <nav>
             <ul>
-                <li>About</li>
-                <li>Services</li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
                 <li>
                     <img src="images/fragile_logo.jpg" width="50px"/>
                 </li>
-                <li>FAQ</li>
-                <li>Contact</li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -31,7 +32,9 @@
         </div>
     </section>
 
-    <section class="about">
+<section class="container">
+
+    <section class="about" id="about">
         <h2>We deliver packages in any circumstance</h2>
         <h4>Too dangerous to venture outside? Fragile Express has you covered!</h4>
         <p>Fragile Express prides itself in delivering packages in excellent condition and on time</p>
@@ -40,7 +43,7 @@
         </p>
     </section>
 
-    <section class="services">
+    <section class="services" id="services">
         <h2>Delivery Services</h2>
         <div class="delivery-methods">
             <figure>
@@ -61,7 +64,7 @@
         </div>
     </section>
 
-    <section class="faq">
+    <section class="faq" id="faq">
         <h2>Questions? We have answers!</h2>
         <ol>
             <li>What happens if my package is lost?</li>
@@ -77,7 +80,7 @@
         </ol>
     </section>
 
-    <section class="contact">
+    <section class="contact" id="contact">
         <h2>Contact</h2>
         <p>We do our best to anwer questions with in 24 hours.</p>
         <p>Please note that certain areas of our network are in progress of being migrated and your message might not be sent right away.
@@ -92,6 +95,8 @@
             <input type="submit" value="SEND">
         </form>
     </section>
+
+</section>
 
     <footer>
         <p>Fragile Express &copy 2020</p>
