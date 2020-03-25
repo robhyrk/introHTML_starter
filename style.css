@@ -63,3 +63,24 @@ nav ul li {
     vertical-align: middle;
     margin: 0.25em 0.75em;
 }
+
+.hero-banner {
+    background:url("images/sunset.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}
+
+.hero-text {
+    color:white;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    text-align:center
+}
+
+.hero-text h1, .hero-text h5 {
+    margin: 0.75em 0;
+}
