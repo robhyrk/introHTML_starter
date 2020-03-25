@@ -64,6 +64,7 @@ nav ul li {
     margin: 0.25em 0.75em;
 }
 
+/* Hero Banner */
 .hero-banner {
     background:url("images/sunset.jpg");
     background-size: cover;
@@ -85,6 +86,7 @@ nav ul li {
     margin: 0.75em 0;
 }
 
+/* About Section */
 .about {
     margin: 3em auto;
     padding: 2em;
@@ -103,3 +105,37 @@ nav ul li {
     margin: 2em 0;
 }
 
+/* Services */
+.services {
+    margin: 3em auto;
+    padding:2em;
+    text-align: center;
+    background: #191919;
+    color: white;
+}
+
+.services h2 {
+    margin: 0.5em;
+}
+
+.delivery-methods {
+    margin: 3em 0 0 0;
+}
+
+.services figure {
+    display: inline-block;
+    margin: 2em 5em;
+}
+
+.services i {
+    font-size: 6em;
+}
+
+.services figcaption {
+    font-size: 2em;
+    margin: 0.5em 0;
+}
+
+.services span {
+    font-size: 1.25em;
+}
